@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+.users-paper{
+ display: flex;
+ flex-direction: row;
+ margin-bottom: 10%;
+ margin-top: 10%;
+ justify-content: space-around;
+
+}
+img {
+  width: 100%;
+  height: 40%;
+  padding-bottom: 0px;
+}
+.id-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxx {
+margin-left: 10%;
+margin-right: 10%;
+  
+}
+.inner-paper{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+p{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.reg-form{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.paper-div {
+  display: flex;
+  justify-content: space-around;
+}
+.cont {
+  padding-top: 0px;
+  margin-top: 0%;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100vh;
+  font-size: x-large;
+}
+.cont > img {
+  border-radius: 2%;
+  size: 50px;
+  width: 50%;
+  height: 30%;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 2%;
+}
